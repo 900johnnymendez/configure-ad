@@ -33,7 +33,7 @@ This tutorial describes the process for deploying and configuring of on-premises
 
 </p>
 <p>
-create virtual netowrk.
+Created a virtual network named Active-directory-VNET for Windows 10 pro and Windows server to join to.
 </p>
 <br />
 
