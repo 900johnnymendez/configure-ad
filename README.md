@@ -42,7 +42,7 @@ Created a virtual network named Active-directory-VNET for Windows 10 pro virtual
 
 </p>
 <p>
-created two virtual machines. Domain controller running windows server named dc-1 and windows 10 pro named client-1. Both VMs were created under the same virtual network (active-direcotry VNET) and both have same login credentials as labuser username and Cyberlab123! as password.</p>
+Created two virtual machines, the Domain controller running Windows Server named dc-1 and Windows 10 Pro named client-1. Both VMs were created under the same virtual network (active-direcotry VNET) and the username is labuser and password is Cyberlab123! for both VMS.</p>
 <br />
 
 <p>
