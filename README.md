@@ -42,12 +42,14 @@ create virtual netowrk.
 
 </p>
 <p>
-created two virtual machines. Domain controller running windows server named dc-1 and windows 10 pro named client-1. Both VMs were created under the same virtual network (active-direcotry VNET).</p>
+created two virtual machines. Domain controller running windows server named dc-1 and windows 10 pro named client-1. Both VMs were created under the same virtual network (active-direcotry VNET) and both have same login credentials as labuser username and Cyberlab123! as password.</p>
 <br />
 
 <p>
 
+<img width="1015" height="494" alt="Screenshot 2026-06-25 204147" src="https://github.com/user-attachments/assets/9ed2d075-2c88-47bc-a81e-ef99100dad44" />
 
+Set the domain controllers (dc-1) private ip adress as static so it wont change since in azure the default  private ip adress changes and since its the domain controller its crucial it doesnt change so that client 1 vm can connect to its domain
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
