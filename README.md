@@ -90,4 +90,8 @@ Paste the public ip adress and connect
 
 <img width="453" height="465" alt="Screenshot 2026-06-26 003501" src="https://github.com/user-attachments/assets/0923d154-3423-4382-9681-a1929043784b" />
 
-Login with the credetnials (cyberlab123! and user is labuser) and click okay to connect
+Login with the credetnials (cyberlab123! and user is labuser) and click okay to connect. Once in, type powershell and open it.
+
+<img width="848" height="695" alt="Annotation 2026-06-26 035726" src="https://github.com/user-attachments/assets/b2bc9a6e-337a-4824-b253-732117de59b1" />
+
+in powershell Type ping 10.0.0.4 which is dc-1's private ip adress. The ping succeeded, both virtual machines are on the same virtual network. Type ipconfig /all and under DNS servers it should show 10.0.0.4 (dc-1's private ip). If they wrent it wouldve said something like timeout either because both virtual machines arent on the same virtual netowrk or because windows firewall is still on.
