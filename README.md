@@ -52,6 +52,13 @@ created two virtual machines. Domain controller running windows server named dc-
 
 </p>
 <p>
-Set the domain controllers (dc-1) private ip adress as static so it wont change since in azure the default  private ip adress changes and since its the domain controller its crucial it doesnt change so that client 1 vm can connect to its domain
+Set the domain controller's (dc-1) NIC private ip adress as static so it wont change since in azure the default  private ip adress changes and since its the domain controller its crucial it doesnt change so that client 1 vm can connect to its domain
 </p>
 <br />
+
+<img width="686" height="467" alt="Screenshot 2026-06-25 204639" src="https://github.com/user-attachments/assets/8e64b100-42d9-4100-98ca-baa1d176c226" />
+
+Set client-1's DNS settings to dc-1's private ip adress (10.0.0.4) and restart client -1 virtual machine to apply the changes
+
+
+
