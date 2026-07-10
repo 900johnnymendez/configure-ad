@@ -75,3 +75,7 @@ Paste the dc-1's public ip adress in the box and click connect
 <img width="450" height="469" alt="Screenshot 2026-06-26 003244" src="https://github.com/user-attachments/assets/8afd7fe2-904a-4efa-b546-d12dd7ab18e6" />
 
 Enter the credentials that were created with the virtual machines (labuser , Password: Cyberlab123!)
+
+<img width="1366" height="768" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/daa075fa-8f15-4f16-897e-2e5b77bdf209" />
+
+once ur logged in, click start and search for windows defender firewall with advanced secuirty and open it. Once its open, click on Windows defender firewall properties. On Domain profile tab, where it says firewall state, select off and do the same for  private profile tab and public profile tab and then click apply and okay.
