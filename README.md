@@ -58,7 +58,7 @@ Set the domain controller's (dc-1) NIC private ip address as static so it wont c
 
 <img width="686" height="467" alt="Screenshot 2026-06-25 204639" src="https://github.com/user-attachments/assets/8e64b100-42d9-4100-98ca-baa1d176c226" />
 
-Set client-1's DNS settings to dc-1's private ip address (10.0.0.4) and this will make client-1 look to dc-1 whenever the computer needs to look up anything like google.com for example and for to be able to join the domain.
+Set client-1's DNS settings to dc-1's private ip address (10.0.0.4) and this will make client-1 look to dc-1 whenever the computer needs to look up anything like google.com for example and for to be able to locate the domain to be able to join it.
 
 <img width="778" height="247" alt="Screenshot 2026-06-26 003017" src="https://github.com/user-attachments/assets/00965886-e0f2-40d6-988e-19fe201ec80e" />
 
