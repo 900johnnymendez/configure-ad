@@ -66,7 +66,7 @@ Login to dc-1 vm and disable windows firewall to test connectivity. Copied its p
 
 <img width="344" height="74" alt="Screenshot 2026-06-25 222730" src="https://github.com/user-attachments/assets/7f71f318-bd1b-4e42-875b-41b028070a28" />
 
-To login and connect to dc-1 vm, opened the remote desktop connection app.
+To login and connect to dc-1 virtual machine, used the remote desktop connection application.
 
 <img width="406" height="247" alt="Screenshot 2026-06-26 003121" src="https://github.com/user-attachments/assets/9c537c99-de4f-4d2e-8be4-0740b9ee48ff" />
 
