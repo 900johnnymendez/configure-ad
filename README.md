@@ -62,19 +62,19 @@ Set client-1's DNS settings to dc-1's private ip address (10.0.0.4) and this wil
 
 <img width="778" height="247" alt="Screenshot 2026-06-26 003017" src="https://github.com/user-attachments/assets/00965886-e0f2-40d6-988e-19fe201ec80e" />
 
-Login to dc-1 vm and disable windows firewall to test connectivity with its public ip adress. copy the adress.
+Login to dc-1 vm and disable windows firewall to test connectivity. Copied its public Ip address to login.
 
 <img width="344" height="74" alt="Screenshot 2026-06-25 222730" src="https://github.com/user-attachments/assets/7f71f318-bd1b-4e42-875b-41b028070a28" />
 
-To login and connect to dc-1 vm, on ur computer open the remote desktop connection app
+To login and connect to dc-1 vm, opened the remote desktop connection app.
 
 <img width="406" height="247" alt="Screenshot 2026-06-26 003121" src="https://github.com/user-attachments/assets/9c537c99-de4f-4d2e-8be4-0740b9ee48ff" />
 
-Paste the dc-1's public ip adress in the box and click connect
+Pasted dc-1's public ip address in the box and clicked connect
 
 <img width="450" height="469" alt="Screenshot 2026-06-26 003244" src="https://github.com/user-attachments/assets/8afd7fe2-904a-4efa-b546-d12dd7ab18e6" />
 
-Enter the credentials that were created with the virtual machines (labuser , Password: Cyberlab123!)
+Entered the credentials that were created with the virtual machines (username: labuser Password: Cyberlab123!)
 
 <img width="1366" height="768" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/daa075fa-8f15-4f16-897e-2e5b77bdf209" />
 
