@@ -90,8 +90,8 @@ Pasted client-1's Public IP address and clicked connect.
 
 <img width="453" height="465" alt="Screenshot 2026-06-26 003501" src="https://github.com/user-attachments/assets/0923d154-3423-4382-9681-a1929043784b" />
 
-Logged in with the credentials (Username: labuser Password: Cyberlab123!) and clicked okay to connect. Once in, typed Powershell and opened it.
+Logged in with the credentials (Username: labuser Password: Cyberlab123!) and clicked okay to connect. Once in, clicked start and typed Powershell and opened it.
 
 <img width="848" height="695" alt="Annotation 2026-06-26 035726" src="https://github.com/user-attachments/assets/b2bc9a6e-337a-4824-b253-732117de59b1" />
 
-in powershell Type ping 10.0.0.4 which is dc-1's private ip adress. The ping succeeded, both virtual machines are on the same virtual network. Type ipconfig /all and under DNS servers it should show 10.0.0.4 (dc-1's private ip). If they wrent it wouldve said something like timeout either because both virtual machines arent on the same virtual netowrk or because windows firewall is still on.
+In powershell Typed ping 10.0.0.4 which is dc-1's private IP address to test connectivity. The ping succeeded, both virtual machines are on the same virtual network. Typed ipconfig /all and under DNS servers it should show 10.0.0.4 (dc-1's private ip) to make sure client-1 is using dc-1 as the DNS server. If the ping failed it would've said timeout either because both virtual machines aren't on the same virtual network or because Windows Firewall is still on.
