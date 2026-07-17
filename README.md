@@ -82,7 +82,7 @@ Once logged in, clicked start and searched for Windows Defender Firewall with Ad
 
 <img width="1084" height="417" alt="Screenshot 2026-06-25 222623" src="https://github.com/user-attachments/assets/9d623448-7ead-4267-baa8-df3340a0e87a" />
 
-Then logged in to client-1 by copying it's Public IP address and opening the Remote Desketop Conecction application.
+Then logged in to client-1 by copying it's Public IP address and opening the Remote Desketop Connection application.
 
 <img width="404" height="250" alt="Screenshot 2026-06-26 003426" src="https://github.com/user-attachments/assets/7a7270de-0a30-43ee-a9a6-8afeea1b8433" />
 
