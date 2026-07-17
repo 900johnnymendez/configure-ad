@@ -33,7 +33,7 @@ This tutorial describes the process for deploying and configuring of on-premises
 
 </p>
 <p>
-Created a virtual network named Active-directory-VNET for Windows 10 Pro virtual machine and Windows Server virtual machine to join to.
+Created a virtual network named Active-Directory-VNET for Windows 10 Pro virtual machine and Windows Server virtual machine to join to.
 </p>
 <br />
 
@@ -42,7 +42,7 @@ Created a virtual network named Active-directory-VNET for Windows 10 Pro virtual
 
 </p>
 <p>
-Created two virtual machines, the Domain controller running Windows Server named dc-1 and Windows 10 Pro named client-1. Both VMs were created under the same virtual network (active-directory-VNET) and the username is labuser and password is Cyberlab123! for both VMs to login.</p>
+Created two virtual machines, the Domain controller running Windows Server named dc-1 and Windows 10 Pro named client-1. Both VMs were created under the same virtual network (Active-Directory-VNET) and the username is labuser and password is Cyberlab123! for both VMs to login.</p>
 <br />
 
 <p>
