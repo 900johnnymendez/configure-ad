@@ -98,6 +98,7 @@ In Powershell, typed ping 10.0.0.4 which is dc-1's private IP address to test co
 
 <h2> Deploying active directory</h2>
 install active directory and deploy it
+<h2> Demonstation</h2>
 
 <img width="1366" height="768" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/d8948462-b5f1-4efa-81a3-8ab6c7b420fd" />
 
