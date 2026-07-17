@@ -246,3 +246,23 @@ Its able to locate the domain controller since client-1's DNS settings is set to
 <img width="1177" height="676" alt="image" src="https://github.com/user-attachments/assets/6237b9b3-5334-4fe5-b75e-3b8abefeaffa" />
 
 Once successfully joined to the domain a pop up window appears saying Welcome to the mydomain.com domain and the client-1 computer will ask to restart now and click restart now.
+
+<img width="1366" height="768" alt="screnshot (1)" src="https://github.com/user-attachments/assets/ec059215-1cf5-4c0b-b09b-42a4c13e7922" />
+
+Now to verify client-1 joined the domain, switched to dc-1 logged in as jane admin account. Searched for Active Directory Users and Computers and opened it.
+
+<img width="1366" height="768" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/e73a4e14-3306-4a96-80db-860cafa6b954" />
+
+Under mydomain.com clicked on Computers, Client-1 is listed, join successfully.
+
+<img width="1366" height="768" alt="screnshot (3)" src="https://github.com/user-attachments/assets/8048295b-ac48-4b70-9b65-60c16ee0933e" />
+
+Right click on mydomain.com and click on New Orginzational Unit called _CLIENTS
+
+<img width="1366" height="768" alt="screnshot (5)" src="https://github.com/user-attachments/assets/6afa1b14-8b22-41c8-a026-1b3aa84f5748" />
+
+In the Computers folder, drag Client-1 to _CLIENTS Orginzational Unit and click yes.
+
+<img width="1366" height="768" alt="screnshot (6)" src="https://github.com/user-attachments/assets/9346dc6a-bf00-4d8e-87f1-ca200c64d3e9" />
+
+Under _CLIENTS client-1 should be listed there
