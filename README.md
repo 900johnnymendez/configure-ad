@@ -155,6 +155,14 @@ Click next
 
 Click install for the new Forest to be installed and for the computer (dc-1) to become a domain controller and wait for the computer to automatically restart.
 
+<img width="417" height="244" alt="Screenshot 2026-06-25 215615" src="https://github.com/user-attachments/assets/84c58242-938d-4513-8d49-3cac43edee0b" />
+
+Log back in by pasting dc-1's public IP address.
+
+<img width="451" height="462" alt="Screenshot 2026-06-25 215740" src="https://github.com/user-attachments/assets/580576e5-e214-4bfe-aefe-7f0a4c9702b2" />
+
+To login as a domain user, the username is mydomain.com\labuser and password is Cyberlab123!
+
 
 
 
