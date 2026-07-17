@@ -26,7 +26,7 @@ This tutorial describes the process for deploying and configuring of on-premises
 - Step 3
 - Step 4
 
-<h2>Deployment and Configuration Steps</h2>
+<h2>Demonstartion</h2>
 
 <p>
 <img width="860" height="197" alt="Screenshot 2026-06-26 002735" src="https://github.com/user-attachments/assets/46aadd0e-43fc-4eb9-b859-9373af68e3ff" />
