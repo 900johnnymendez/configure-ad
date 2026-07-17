@@ -66,11 +66,11 @@ Login to dc-1 vm and disable Windows Firewall to test connectivity. Copied its p
 
 <img width="344" height="74" alt="Screenshot 2026-06-25 222730" src="https://github.com/user-attachments/assets/7f71f318-bd1b-4e42-875b-41b028070a28" />
 
-Used the remote desktop connection application to login and connect to dc-1 virtual machine.
+Used the Remote Desktop Connection application to login and connect to dc-1 virtual machine.
 
 <img width="406" height="247" alt="Screenshot 2026-06-26 003121" src="https://github.com/user-attachments/assets/9c537c99-de4f-4d2e-8be4-0740b9ee48ff" />
 
-Pasted dc-1's public ip address in the box and clicked connect
+Pasted dc-1's public IP address in the box and clicked connect,
 
 <img width="450" height="469" alt="Screenshot 2026-06-26 003244" src="https://github.com/user-attachments/assets/8afd7fe2-904a-4efa-b546-d12dd7ab18e6" />
 
