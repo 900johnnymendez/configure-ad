@@ -121,7 +121,41 @@ Checked Restart the destination server automatically if required and clicked ins
 
 <img width="1366" height="768" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/9ddccc19-efcb-46ec-a074-a5aed9e6e652" />
 
-Clicked close after its done installing Active Directory Domain Serverices and then opened Server Manager.
+Clicked close after its done installing Active Directory Domain Services and then opened Server Manager.
+
+<img width="1366" height="768" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/7680f2b9-4e0c-4989-a22f-b8ec60cacbfb" />
+
+At the top right clicked the flag icon and clicked Promote this server to a domain controller because Active Directory is installed but not a domain controller yet.
+
+<img width="1366" height="768" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/9c8b99c7-0327-426a-b2d4-82111a73103b" />
+
+Clicked add a new forest and for the domain name typed in mydomain.com and clicked next.
+
+<img width="1366" height="768" alt="Screenshot (13)" src="https://github.com/user-attachments/assets/df66d537-c051-4a5a-8228-c1e7affbd156" />
+
+For the Directory Services Restore Mode Password typed in password1 and clicked next
+
+<img width="1366" height="768" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/fbaed500-8ad7-478d-bb79-04cacf6f861b" />
+
+Click next
+
+<img width="1366" height="768" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/7317e218-f2da-4229-bf70-216db18f1de3" />
+
+Click next
+
+<img width="1366" height="768" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/50918345-103e-44cf-bc25-84331032884f" />
+
+Click next
+
+<img width="1366" height="768" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/cfa60964-ccd5-493c-8ac7-e3c310b1cfdd" />
+
+Click next
+
+<img width="1366" height="768" alt="Screenshot (18)" src="https://github.com/user-attachments/assets/e0dfa35a-cb73-4b02-a766-85fa8aff8bd0" />
+
+Click install for the new Forest to be installed and for the computer (dc-1) to become a domain controller and wait for the computer to automatically restart.
+
+
 
 
 
