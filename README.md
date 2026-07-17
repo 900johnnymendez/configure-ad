@@ -19,7 +19,7 @@ This tutorial describes the process for deploying and configuring of on-premises
 - Windows Server 2022
 - Windows 10 Pro (21H2)
 
-<h2>High-Level Deployment and Configuration Steps</h2>
+<h2>Preparing Active Directory infrastructure</h2>
 
 - Step 1
 - Step 2
