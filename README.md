@@ -90,7 +90,7 @@ Pasted client-1's Public IP address and clicked connect.
 
 <img width="453" height="465" alt="Screenshot 2026-06-26 003501" src="https://github.com/user-attachments/assets/0923d154-3423-4382-9681-a1929043784b" />
 
-Login with the credetnials (cyberlab123! and user is labuser) and click okay to connect. Once in, type powershell and open it.
+Logged in with the credentials (Username: labuser Password: Cyberlab123!) and clicked okay to connect. Once in, typed Powershell and opened it.
 
 <img width="848" height="695" alt="Annotation 2026-06-26 035726" src="https://github.com/user-attachments/assets/b2bc9a6e-337a-4824-b253-732117de59b1" />
 
