@@ -163,8 +163,86 @@ Log back in by pasting dc-1's public IP address.
 
 To login as a domain user, the username is mydomain.com\labuser and password is Cyberlab123!
 
+<img width="1366" height="768" alt="Screenshot (19)" src="https://github.com/user-attachments/assets/48a7349b-d48b-4815-b497-f05e3100ea0d" />
 
+Once logged in dc-1, clicked start and under Administrative Tools opened Active Directory Users and Computers.
 
+<img width="1366" height="768" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/cf037f6f-13ee-4829-b40f-c7bb7d9573d7" />
 
+Right click mydomain.com and and click on new Organizational Unit
 
+<img width="1366" height="768" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/ca0f1902-7108-4148-85b2-291befd14759" />
 
+Named the Organizational Unit _EMPLOYEES and clicked okay.
+
+<img width="1366" height="768" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/32fa32a2-3b34-497c-861e-4605f7a4ae81" />
+
+Create another Organizational Unit called _ADMINS and click okay.
+
+<img width="1366" height="768" alt="Screenshot (24)" src="https://github.com/user-attachments/assets/4588d23e-0591-4eae-8a25-feeb8c74e812" />
+
+In _ADMINS right click and selected new user.
+
+<img width="1366" height="768" alt="Screenshot (25)" src="https://github.com/user-attachments/assets/9952ee9e-d404-482b-8f80-91fbfcf3a204" />
+
+Jane as first name and Doe as last name. jane_admin is the username and clicked next.
+
+<img width="1366" height="768" alt="Screenshot (26)" src="https://github.com/user-attachments/assets/eb1c4e3a-c216-40f6-9301-7a0754200992" />
+
+Password is Cyberlab123! and selected password never expires.
+
+<img width="1366" height="768" alt="Screenshot (27)" src="https://github.com/user-attachments/assets/45780312-6c25-4781-bc62-fc647f1ae036" />
+
+Shows full name and username of the account being created and clicked finish.
+
+<img width="1366" height="768" alt="Screenshot (29)" src="https://github.com/user-attachments/assets/b980b7d7-3574-4e7c-9637-8717159099c6" />
+
+Even though the account is in the admins folder it is not an admin account. To make the account an admin you have to add it to the domain admins security group. Right clicked on Janes account and clicked properties.
+
+<img width="1366" height="768" alt="Screenshot (30)" src="https://github.com/user-attachments/assets/27ddfeec-bb47-41d5-ab81-36eba2f5509e" />
+
+Under member of, clicked on add
+
+<img width="1366" height="768" alt="Screenshot (31)" src="https://github.com/user-attachments/assets/d069c781-cb50-43ef-8157-bd444c2824ae" />
+
+Typed Domain Admins and selected check names to find the admins security group and clicked okay.
+
+<img width="1366" height="768" alt="Screenshot (32)" src="https://github.com/user-attachments/assets/922c9e13-12d5-4733-9f45-ad6f64d351f0" />
+
+Click apply and okay to make Jane's account an actual domain admin.
+
+<img width="1366" height="768" alt="Screenshot (33)" src="https://github.com/user-attachments/assets/19f3dbed-9293-4fd8-9c23-223c2de79894" />
+
+Logged out of dc-1 and then sign in as jane admin
+
+<img width="405" height="246" alt="Screenshot 2026-06-25 221611" src="https://github.com/user-attachments/assets/0ba10ebb-24b2-4e1c-ab06-ce7e9149ad28" />
+
+Paste dc-1's public IP address
+
+<img width="445" height="461" alt="Screenshot 2026-06-25 221720" src="https://github.com/user-attachments/assets/d79a0e36-cc8c-45ec-8ff2-aaed41c0def6" />
+
+Login to dc-1 as jane admin account, Username is mydomain.com\jane_admin and password is Cyberlab123! and click okay to connect
+
+<img width="395" height="243" alt="Screenshot 2026-06-25 224105" src="https://github.com/user-attachments/assets/349aac30-a0dc-4372-8119-9364335e6893" />
+
+Login to client-1 as local user (labuser) to join the domain.
+
+<img width="787" height="608" alt="image" src="https://github.com/user-attachments/assets/12c10cea-9e55-41da-b3b9-24d410807e43" />
+
+Once logged in, right click start and select system. click on Rename this PC (advanced)
+
+<img width="787" height="612" alt="image" src="https://github.com/user-attachments/assets/46c6cebb-b789-4aa1-a06a-cd745f33d9fd" />
+
+Click change
+
+<img width="786" height="611" alt="image" src="https://github.com/user-attachments/assets/f82d49c0-5032-4b1d-ac5d-c10f7812fda6" />
+
+Select domain and typed mydomain.com and click okay
+
+<img width="786" height="609" alt="image" src="https://github.com/user-attachments/assets/4a1a5f8e-810f-4a28-85fe-4bf316373cdf" />
+
+Its able to locate the domain controller since client-1's DNS settings is set to use dc-1's private IP address. Use jane's admin account to join  the domain. (Username: mydomain.com\jane_admin  Password: Cyberlab123!) and click okay
+
+<img width="1177" height="676" alt="image" src="https://github.com/user-attachments/assets/6237b9b3-5334-4fe5-b75e-3b8abefeaffa" />
+
+Once successfully joined to the domain a pop up window appears saying Welcome to the mydomain.com domain and the client-1 computer will ask to restart now and click restart now.
