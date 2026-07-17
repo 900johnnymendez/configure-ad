@@ -86,7 +86,7 @@ Then logged in to client-1 by copying it's Public IP address and opening the Rem
 
 <img width="404" height="250" alt="Screenshot 2026-06-26 003426" src="https://github.com/user-attachments/assets/7a7270de-0a30-43ee-a9a6-8afeea1b8433" />
 
-Paste the public ip adress and connect
+Pasted client-1's Public IP address and clicked connect.
 
 <img width="453" height="465" alt="Screenshot 2026-06-26 003501" src="https://github.com/user-attachments/assets/0923d154-3423-4382-9681-a1929043784b" />
 
