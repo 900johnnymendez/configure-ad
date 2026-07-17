@@ -62,7 +62,7 @@ Set client-1's DNS settings to dc-1's private IP address (10.0.0.4) and this wil
 
 <img width="778" height="247" alt="Screenshot 2026-06-26 003017" src="https://github.com/user-attachments/assets/00965886-e0f2-40d6-988e-19fe201ec80e" />
 
-Login to dc-1 vm and disable windows firewall to test connectivity. Copied its public Ip address to login.
+Login to dc-1 vm and disable Windows Firewall to test connectivity. Copied its public IP address to login.
 
 <img width="344" height="74" alt="Screenshot 2026-06-25 222730" src="https://github.com/user-attachments/assets/7f71f318-bd1b-4e42-875b-41b028070a28" />
 
