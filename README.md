@@ -98,3 +98,31 @@ In Powershell, typed ping 10.0.0.4 which is dc-1's private IP address to test co
 
 <h2> Deploying active directory</h2>
 install active directory and deploy it
+
+<img width="1366" height="768" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/d8948462-b5f1-4efa-81a3-8ab6c7b420fd" />
+
+To install Active Directory Domain Services, Logged in to dc-1 and clicked start and searched for Server Manager to open it. Clicked add roles and features.
+
+<img width="1366" height="768" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/5c7de25c-1f59-49ba-ae88-5cae77bec1aa" />
+
+Add Roles and Features Wizard will pop up to help install Active Directory. Click next.
+
+<img width="1366" height="768" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/60ee5d43-4fe7-4283-b489-dcd577c0a605" />
+
+In the server selection, dc-1 is selected and clicked next.
+
+<img width="1366" height="768" alt="Screenshot (7)" src="https://github.com/user-attachments/assets/3dc77ed2-d101-4b66-ae43-819cfb856ddd" />
+
+Selected Active Directory Domain Services to install it and clicked next.
+
+<img width="1366" height="768" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/542af333-90d2-4c24-bd9a-3a1c91270298" />
+
+Checked Restart the destination server automatically if required and clicked install.
+
+<img width="1366" height="768" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/9ddccc19-efcb-46ec-a074-a5aed9e6e652" />
+
+Clicked close after its done installing Active Directory Domain Serverices and then opened Server Manager.
+
+
+
+
