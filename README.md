@@ -267,3 +267,8 @@ In the Computers folder, drag Client-1 to _CLIENTS Orginzational Unit and click 
 <img width="1366" height="768" alt="screnshot (6)" src="https://github.com/user-attachments/assets/9346dc6a-bf00-4d8e-87f1-ca200c64d3e9" />
 
 Under _CLIENTS client-1 should be listed there
+
+<h2> PART 3 ALLOW non admin users for remote desktop</h2>
+Allow non admin users by configuring and then script creation
+<h2>Demonstration</h2>
+
