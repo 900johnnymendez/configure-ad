@@ -269,6 +269,38 @@ In the Computers folder, drag Client-1 to _CLIENTS Orginzational Unit and click 
 Under _CLIENTS client-1 should be listed there
 
 <h2> PART 3 ALLOW non admin users for remote desktop</h2>
-Allow non admin users by configuring and then script creation
+Allow non admin users by configuring and then script creation using powershell
 <h2>Demonstration</h2>
+
+<img width="405" height="243" alt="Screenshot 2026-06-25 231922" src="https://github.com/user-attachments/assets/ed52a37a-d07e-4735-8f48-629cfffd486f" />
+
+Login to client-1 using its public IP address
+
+<img width="448" height="355" alt="Screenshot 2026-06-25 224348" src="https://github.com/user-attachments/assets/8d1dce04-f0c6-467e-b17e-98836b6b3991" />
+
+Used jane admin account to login. (Username: mydomain.com\jane_admin Password: Cyberlab123!)
+
+<img width="1366" height="768" alt="Screensht (1)" src="https://github.com/user-attachments/assets/466e840c-4f54-46c7-91d3-8d7117fc79cd" />
+
+Once logged in, right clicked start menu and clicked System
+
+<img width="1366" height="768" alt="Screensht (2)" src="https://github.com/user-attachments/assets/385b0dfd-564a-49a3-89f6-102b9545e11b" />
+
+Clicked Remote Desktop
+
+<img width="1366" height="768" alt="Screensht (4)" src="https://github.com/user-attachments/assets/53c743fb-6cc1-42c5-9076-636bcd4b2e08" />
+
+Click on Select users that can remotely access this PC
+
+<img width="1366" height="768" alt="Screensht (5)" src="https://github.com/user-attachments/assets/cd2a0789-f348-4c52-af8e-30782fdead64" />
+
+Click Add
+
+<img width="1366" height="768" alt="Screensht (6)" src="https://github.com/user-attachments/assets/56f49cd0-e43a-44c9-8907-e86a140bf2ec" />
+
+Typed Domain Users and then clicked Check names. This will make possible for all domain users to have access to remote desktop.
+
+<img width="1366" height="768" alt="Screensht (7)" src="https://github.com/user-attachments/assets/dfac76ec-484a-41af-93b7-5cf59110db8e" />
+
+Click okay. Logging in to cliet-1 VM as a non-admin user is now possible.
 
