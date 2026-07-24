@@ -346,11 +346,20 @@ In Active Directory Users and Computers under _EMPLOYEES, thousands of users hav
 
 <img width="1366" height="768" alt="Screenshot (19)" src="https://github.com/user-attachments/assets/5cd867c3-6dfa-4c1e-ab60-2c71ef1966eb" />
 
-In _EMPLOYEES, picked a random account that was created to attempt to log into client-1 with it. polo.fam was chosen. 
+In _EMPLOYEES, picked a random account that was created to attempt to log into client-1 with it. polo.fam was picked. 
 
 <img width="395" height="243" alt="Screenshot 2026-06-25 224105" src="https://github.com/user-attachments/assets/7eda7f3e-f18a-40aa-937e-585869cc98ad" />
 
 First logged out of jane_admin from client-1. Pasted client-1's Public IP address.
 
+<img width="450" height="464" alt="Screenshot 2026-06-25 232041" src="https://github.com/user-attachments/assets/82bcc2d2-6ff1-4d5e-aa10-da8d9c57e8be" />
 
+Username is mydomain.com\polo.fam and password by default is Password1
 
+<img width="1366" height="768" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/649dbec7-9e75-4a00-acac-4d9779f3b32b" />
+
+Once logged in, opened command prompt to see that polo.fam has a local profile on client-1 VM.
+
+<img width="1366" height="768" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/9041fb25-8900-49b5-9ee8-01794b55b4cc" />
+
+In File Explorer opened C drive, Users folder, polo.fam has its own profile there and jane_admin because also logged in with jane.
