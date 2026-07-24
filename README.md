@@ -304,3 +304,53 @@ Typed Domain Users and then clicked Check names. This will make possible for all
 
 Click okay. Logging in to cliet-1 VM as a non-admin user is now possible.
 
+<img width="1366" height="768" alt="Screenshot (7)" src="https://github.com/user-attachments/assets/f51f7287-6106-4bc5-804d-5823fb634706" />
+
+Logged in to dc-1 as jane_admin. Searched for Powershell ISE and run as administrator.
+
+<img width="971" height="450" alt="Screenshot 2026-06-25 230227" src="https://github.com/user-attachments/assets/d1ed7604-4d73-47d3-943c-e1b01b7e3c2f" />
+
+Copied script
+
+<img width="1366" height="768" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/7f7d40a7-53f6-49a0-b2f1-cdfd6950135b" />
+
+Clicked on New Script in Powershell ISE
+
+<img width="1366" height="768" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/2b2be5be-3d3f-4a45-80a9-7ffcfc2d1eb5" />
+
+Right clicked and pasted the script in Powershell ISE.
+
+<img width="1366" height="768" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/901ad5cb-54a2-49e4-8125-19f5ca6f2aea" />
+
+Clicled on file, Save as.
+
+<img width="1366" height="768" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/a92faf37-41a5-48a6-ab95-4b3e552893ba" />
+
+Named the Powershell file as script and clicked save.
+
+<img width="1366" height="768" alt="Screenshot (13)" src="https://github.com/user-attachments/assets/90a5a099-7909-40bf-997e-d7ae9ff8356e" />
+
+Clicked run script
+
+<img width="1366" height="768" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/1d1b524d-e37e-4568-ac35-63d963419e28" />
+
+Script will create 10,000 random accounts and password by default is Password1 for all accounts.
+
+<img width="1366" height="768" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/7b8c2a66-daad-4334-afe1-06103230d603" />
+
+All the users will be created in the Organizational Unit called _EMPLOYEES
+
+<img width="1366" height="768" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/cc9c44f8-b2a6-44c4-8f2f-e2deef21c52a" />
+
+In Active Directory Users and Computers under _EMPLOYEES, thousands of users have been created.
+
+<img width="1366" height="768" alt="Screenshot (19)" src="https://github.com/user-attachments/assets/5cd867c3-6dfa-4c1e-ab60-2c71ef1966eb" />
+
+In _EMPLOYEES, picked a random account that was created to attempt to log into client-1 with it. polo.fam was chosen. 
+
+<img width="395" height="243" alt="Screenshot 2026-06-25 224105" src="https://github.com/user-attachments/assets/7eda7f3e-f18a-40aa-937e-585869cc98ad" />
+
+First logged out of jane_admin from client-1. Pasted client-1's Public IP address.
+
+
+
