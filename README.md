@@ -106,7 +106,7 @@ To install Active Directory Domain Services, Logged in to dc-1 and clicked start
 
 <img width="1366" height="768" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/5c7de25c-1f59-49ba-ae88-5cae77bec1aa" />
 
-Add Roles and Features Wizard will pop up to help install Active Directory. Click next.
+Add Roles and Features Wizard appeared on screen to help install Active Directory. Click next.
 
 <img width="1366" height="768" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/60ee5d43-4fe7-4283-b489-dcd577c0a605" />
 
@@ -138,19 +138,19 @@ For the Directory Services Restore Mode Password typed in password1 and clicked 
 
 <img width="1366" height="768" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/fbaed500-8ad7-478d-bb79-04cacf6f861b" />
 
-Click next
+Clicked next
 
 <img width="1366" height="768" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/7317e218-f2da-4229-bf70-216db18f1de3" />
 
-Click next
+Clicked next
 
 <img width="1366" height="768" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/50918345-103e-44cf-bc25-84331032884f" />
 
-Click next
+Clicked next
 
 <img width="1366" height="768" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/cfa60964-ccd5-493c-8ac7-e3c310b1cfdd" />
 
-Click next
+Reviewed the selections made and Clicked next
 
 <img width="1366" height="768" alt="Screenshot (18)" src="https://github.com/user-attachments/assets/e0dfa35a-cb73-4b02-a766-85fa8aff8bd0" />
 
@@ -186,7 +186,7 @@ In _ADMINS right click and selected new user.
 
 <img width="1366" height="768" alt="Screenshot (25)" src="https://github.com/user-attachments/assets/9952ee9e-d404-482b-8f80-91fbfcf3a204" />
 
-Jane as first name and Doe as last name. jane_admin is the username and clicked next.
+Create a new user account Jane as first name and Doe as last name. jane_admin is the username and clicked next.
 
 <img width="1366" height="768" alt="Screenshot (26)" src="https://github.com/user-attachments/assets/eb1c4e3a-c216-40f6-9301-7a0754200992" />
 
@@ -214,7 +214,7 @@ Click apply and okay to make Jane's account an actual domain admin.
 
 <img width="1366" height="768" alt="Screenshot (33)" src="https://github.com/user-attachments/assets/19f3dbed-9293-4fd8-9c23-223c2de79894" />
 
-Logged out of dc-1 and then sign in as jane admin
+Logged out of dc-1 and then signed in as jane admin
 
 <img width="405" height="246" alt="Screenshot 2026-06-25 221611" src="https://github.com/user-attachments/assets/0ba10ebb-24b2-4e1c-ab06-ce7e9149ad28" />
 
@@ -234,19 +234,19 @@ Once logged in, right click start and select system. click on Rename this PC (ad
 
 <img width="787" height="612" alt="image" src="https://github.com/user-attachments/assets/46c6cebb-b789-4aa1-a06a-cd745f33d9fd" />
 
-Click change
+Under Computer Name tab Clicked change
 
 <img width="786" height="611" alt="image" src="https://github.com/user-attachments/assets/f82d49c0-5032-4b1d-ac5d-c10f7812fda6" />
 
-Select domain and typed mydomain.com and click okay
+Selected Member of domain and typed mydomain.com and clicked okay
 
 <img width="786" height="609" alt="image" src="https://github.com/user-attachments/assets/4a1a5f8e-810f-4a28-85fe-4bf316373cdf" />
 
-Its able to locate the domain controller since client-1's DNS settings is set to use dc-1's private IP address. Use jane's admin account to join  the domain. (Username: mydomain.com\jane_admin  Password: Cyberlab123!) and click okay
+Its able to locate the domain controller since client-1's DNS settings is set to use dc-1's private IP address. Used jane's admin account to join  the domain. (Username: mydomain.com\jane_admin  Password: Cyberlab123!) and clicked okay
 
 <img width="1177" height="676" alt="image" src="https://github.com/user-attachments/assets/6237b9b3-5334-4fe5-b75e-3b8abefeaffa" />
 
-Once successfully joined to the domain a pop up window appears saying Welcome to the mydomain.com domain and the client-1 computer will ask to restart now and click restart now.
+Once successfully joined to the domain a pop up window appears saying Welcome to the mydomain.com domain and the client-1 computer will ask to restart now.
 
 <img width="1366" height="768" alt="screnshot (1)" src="https://github.com/user-attachments/assets/ec059215-1cf5-4c0b-b09b-42a4c13e7922" />
 
@@ -254,11 +254,11 @@ Now to verify client-1 joined the domain, switched to dc-1 logged in as jane adm
 
 <img width="1366" height="768" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/e73a4e14-3306-4a96-80db-860cafa6b954" />
 
-Under mydomain.com clicked on Computers, Client-1 is listed, join successfully.
+Under mydomain.com clicked on Computers, Client-1 is listed, joined the domain successfully.
 
 <img width="1366" height="768" alt="screnshot (3)" src="https://github.com/user-attachments/assets/8048295b-ac48-4b70-9b65-60c16ee0933e" />
 
-Right click on mydomain.com and click on New Orginzational Unit called _CLIENTS
+Right clicked on mydomain.com and clicked on New Orginzational Unit thats called _CLIENTS
 
 <img width="1366" height="768" alt="screnshot (5)" src="https://github.com/user-attachments/assets/6afa1b14-8b22-41c8-a026-1b3aa84f5748" />
 
