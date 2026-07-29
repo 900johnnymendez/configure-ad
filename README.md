@@ -363,3 +363,39 @@ Once logged in, opened command prompt to see that polo.fam has a local profile o
 <img width="1366" height="768" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/9041fb25-8900-49b5-9ee8-01794b55b4cc" />
 
 In File Explorer opened C drive, Users folder, polo.fam has its own profile there and jane_admin because also logged in with jane.
+
+<h2>PART 4 Account lockouts</h2>
+Dealing with account lockouts
+<h2>Demonstration</h2>
+
+<img width="1366" height="768" alt="Screenshot (20)" src="https://github.com/user-attachments/assets/828adea2-a1ab-46e9-91f6-0d93553bbd0f" />
+
+Login to dc-1 as jane_admin and right clicked the start menu and clicked run
+
+<img width="1366" height="768" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/dc0b88d1-f8dd-4057-9eb8-2b2d9058eeed" />
+
+Typed gpmc.msc and entered to open Group Policy Management Console
+
+<img width="1366" height="768" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/593e0799-26b1-4776-8af4-30af2a4a0e58" />
+
+Clicked on mydomain.com and then clicked on Linked Group Policy Objects
+
+<img width="1366" height="768" alt="Screenshot (25)" src="https://github.com/user-attachments/assets/3e44cee8-ea9b-41c1-a7c8-524fa75eefd0" />
+
+Right clicked on Default Domain Policy and clicked Edit
+
+<img width="1366" height="768" alt="Screenshot (28)" src="https://github.com/user-attachments/assets/a1427946-bbd6-4e66-955a-8e357798a9ae" />
+
+In Group Policy Management Editor, expanded the following: Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy. Opened Account Lockout duration.
+
+<img width="1366" height="768" alt="Screenshot (29)" src="https://github.com/user-attachments/assets/5759ffa2-230d-4eb7-bf26-6de1cce3ef34" />
+
+Checked Define this Policy settings and set the Lockout duration to 30 minutes and applied.
+
+<img width="1366" height="768" alt="Screenshot (30)" src="https://github.com/user-attachments/assets/abf94dce-05d9-4c68-9479-be43ee71a440" />
+
+Accepted the suggested settings. where the Account will lockout for 30 minutes after 5 invalid attempts
+
+<img width="1366" height="768" alt="Screenshot (32)" src="https://github.com/user-attachments/assets/c4bf75d4-9618-4460-a1c0-b5359bdf5ac6" />
+
+The Account will lockout for 30 minutes after 5 invalid attempts. The Account lockout counter resets after 10 minutes where for example if you have 2 invalid attempts you have 3 attempts left but after waiting 10 minutes it resets and you get 5 attempts.
