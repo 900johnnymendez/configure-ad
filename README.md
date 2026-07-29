@@ -410,3 +410,51 @@ Picked a random user from active directory users and computers in _EMPLOYEES (po
 <img width="450" height="466" alt="Screenshot 2026-06-26 000135" src="https://github.com/user-attachments/assets/be9badd4-ccd6-4dba-888b-21bcd69e781f" />
 
 Username is mydomain.com\polo.fam and typed the wrong password 5 times.
+
+<img width="554" height="148" alt="Screenshot 2026-06-26 000239" src="https://github.com/user-attachments/assets/37ee956a-996f-4b44-8c0f-26511fdec882" />
+
+After 5 failed attempts the user account is locked out.
+
+<img width="1366" height="768" alt="Screenshot (33)" src="https://github.com/user-attachments/assets/8017466b-c36a-4a9b-b6a6-8223f208c834" />
+
+To unlock the account go back to dc-1, right clicked on mydomain.com and find.
+
+<img width="1366" height="768" alt="Screenshot (34)" src="https://github.com/user-attachments/assets/dec58cbc-228e-4cf8-8099-1f560f122b36" />
+
+Typed polo.fam and clicked find now
+
+<img width="1366" height="768" alt="Screenshot (35)" src="https://github.com/user-attachments/assets/04036ed5-5851-4ba4-9aa5-0479a1afc59d" />
+
+Double clicked on polo.fam and clicked on Account. Select unlock account and applied. 
+
+<img width="1366" height="768" alt="Screenshot 0" src="https://github.com/user-attachments/assets/4472d498-43f7-4c6a-aa67-33e99897d98b" />
+
+Since account is unlocked, login to client-1 with polo.fam to test it. Once logged in opened Powershell and typed whoami and it shows mydomain\polo.fam. Logged in successfully.
+
+<img width="1366" height="768" alt="Screenshot (37)" src="https://github.com/user-attachments/assets/dcdc6498-bd0e-4b33-9a7f-258fb60c4f92" />
+
+To reset passwords, in dc-1 search for the account and right clicked and selected reset password.
+
+<img width="1366" height="768" alt="Screenshot (38)" src="https://github.com/user-attachments/assets/d18ff0c2-7bb4-427f-9a5f-78d4c722c355" />
+
+Type new password and check unlock users account if need to and clicked okay.
+
+<img width="1366" height="768" alt="Screenshot (39)" src="https://github.com/user-attachments/assets/0e4ff35a-549e-4150-a788-044462689762" />
+
+To disable an account right click the user and click disable
+
+<img width="1366" height="768" alt="Screenshot (40)" src="https://github.com/user-attachments/assets/032b80fa-642a-4109-a028-3978928b358a" />
+
+polo.fam has been disabled.
+
+<img width="558" height="131" alt="Screenshot 2026-06-26 001745" src="https://github.com/user-attachments/assets/a62f6fd6-a182-45aa-8c11-0d59647ac998" />
+
+Attempting to log into client-1 with the disabled account results in error message saying account is disabled and cannot be used. 
+
+<img width="1366" height="768" alt="Screenshot (41)" src="https://github.com/user-attachments/assets/55b24823-6ec6-447f-8454-3834273e851c" />
+
+To enable account, in dc-1 search for the account and right clicked it and select Enable Account.
+
+<img width="1366" height="768" alt="Screenshot (42)" src="https://github.com/user-attachments/assets/810e3bcf-0a37-477a-bb2b-5ce8c7f8e4f3" />
+
+polo.fam account has been enabled and now able to log in.
