@@ -398,4 +398,15 @@ Accepted the suggested settings. where the Account will lockout for 30 minutes a
 
 <img width="1366" height="768" alt="Screenshot (32)" src="https://github.com/user-attachments/assets/c4bf75d4-9618-4460-a1c0-b5359bdf5ac6" />
 
-The Account will lockout for 30 minutes after 5 invalid attempts. The Account lockout counter resets after 10 minutes where for example if you have 2 invalid attempts you have 3 attempts left but after waiting 10 minutes it resets and you get 5 attempts.
+The Account will lockout for 30 minutes after 5 invalid attempts. The Account lockout counter resets after 10 minutes where for example if you have 2 invalid attempts you have 3 attempts left but after waiting 10 minutes it resets and you get 5 attempts. You can wait some time for the updated settings to roll out or can force it immediately.
+
+<img width="641" height="332" alt="Screenshot 2026-07-29 160158" src="https://github.com/user-attachments/assets/8858ab7e-19b5-4a3f-98dd-f13feb651456" />
+
+Logged into client-1 as jane_admin and typed gpupdate /force in Command prompt to force the update immediately. Policy update completed successfully so now Account lockout Policy is enforced, logged out of client-1.
+
+<img width="401" height="248" alt="Screenshot 2026-06-26 000043" src="https://github.com/user-attachments/assets/bc017b7a-ba9f-4281-a392-aa3b07afe839" />
+Picked a random user from active directory users and computers in _EMPLOYEES (polo.fam) to test Account Lockout. Pasted client-1's Public IP address in Remote desketop connection.
+
+<img width="450" height="466" alt="Screenshot 2026-06-26 000135" src="https://github.com/user-attachments/assets/be9badd4-ccd6-4dba-888b-21bcd69e781f" />
+
+Username is mydomain.com\polo.fam and typed the wrong password 5 times.
