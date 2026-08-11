@@ -20,11 +20,7 @@ This tutorial describes the process for deploying and configuring of on-premises
 - Windows 10 Pro (21H2)
 
 <h2>Preparing Active Directory infrastructure</h2>
-
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+Create Virtual network
 
 <h2>Demonstration</h2>
 
