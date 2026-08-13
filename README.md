@@ -116,8 +116,34 @@ Logged in with the credentials (Username: labuser Password: Cyberlab123!) and cl
 
 In Powershell, typed ping 10.0.0.4 which is dc-1's private IP address to test connectivity. The ping succeeded, both virtual machines are on the same virtual network. Typed ipconfig /all and under DNS servers it should show 10.0.0.4 (dc-1's private IP address) to make sure client-1 is using dc-1 as the DNS server. If the ping failed it would've said timeout either because both virtual machines aren't on the same virtual network or because Windows Firewall is still on.
 
-<h2> Deploying active directory</h2>
-install active directory and deploy it
+<h2> Deploying Active Directory</h2>
+
+Login to DC-1 and install Active Directory Domain Services
+
+Promote DC-1 as a Domain Controller and setup a new forest as mydomain.com
+
+Restart and log back into DC-1 as mydomain.com\labuser
+
+Create Organizational Unit called _EMPLOYEES and in Active Directory Users and Computers
+
+Create another Organization Unit called _ADMINS to create a Domain Admin user
+
+Create a new employee in _ADMINS named Jane Doe with username as jane_admin and password Cyberlab123!
+
+Add jane_admin to the Domain Admins Security Group
+
+Log out of DC-1 and log back in as mydomain.com\jane_admin and use it as admin account from this point forward
+
+Login to Client-1 as the original local admin (labuser) and join it to the domain
+
+Login to Domain Controller and verify Client-1 appears in Active Directory Users and Computers
+
+Create new Orginaztional Unit named _CLIENTS and drag Client-1 into there
+
+
+
+
+
 <h2> Demonstation</h2>
 
 <img width="1366" height="768" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/d8948462-b5f1-4efa-81a3-8ab6c7b420fd" />
