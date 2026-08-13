@@ -13,6 +13,7 @@ This tutorial describes the process for deploying and configuring of on-premises
 - Remote Desktop
 - Active Directory Domain Services
 - PowerShell
+- Command Prompt
 
 <h2>Operating Systems Used </h2>
 
