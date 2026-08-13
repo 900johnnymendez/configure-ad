@@ -422,8 +422,22 @@ Once logged in, opened command prompt to see that polo.fam has a local profile o
 
 In File Explorer opened C drive, Users folder, polo.fam has its own profile there and jane_admin because also logged in with jane.
 
-<h2>PART 4 Account lockouts</h2>
-Dealing with account lockouts
+<h2> Managing Accounts and Group Policy </h2>
+
+Login to Domain Controller and configure Group Policy to lockout after 5 attempts with Group Policy Management Console
+
+Update the Group Policy
+
+Pick random user to attempt to login with the wrong password and observe that the account has been locked out within Active Directory
+
+Unlock the account and attempt to login with it again
+
+Resetting Passwords within Active Directory
+
+Disable the Account in Active Directory and attempt to login and observe
+
+Re-enable the account in Active Directory and attempt to login
+
 <h2>Demonstration</h2>
 
 <img width="1366" height="768" alt="Screenshot (20)" src="https://github.com/user-attachments/assets/828adea2-a1ab-46e9-91f6-0d93553bbd0f" />
