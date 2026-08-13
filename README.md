@@ -314,8 +314,20 @@ In the Computers folder, drag Client-1 to _CLIENTS Orginzational Unit and click 
 
 Under _CLIENTS client-1 should be listed there
 
-<h2> PART 3 ALLOW non admin users for remote desktop</h2>
-Allow non admin users by configuring and then script creation using powershell
+<h2> Create Users & Setup Remote Desktop for non-admin users</h2>
+
+Log into Client-1 as mydomain.com\jane_admin and open system properties
+
+Click Remote Desktop and allow domain users access to remote desktop
+
+Login to DC-1 as jane_admin and open Powershell ISE as an administrator
+
+Copy the script and paste it in a new script in Powershell ISE
+
+Run the script and when finished check _EMPLOYEES in Active Directory to observe users created
+
+Attempt to log into Client-1 with one of the random user accounts created
+
 <h2>Demonstration</h2>
 
 <img width="405" height="243" alt="Screenshot 2026-06-25 231922" src="https://github.com/user-attachments/assets/ed52a37a-d07e-4735-8f48-629cfffd486f" />
