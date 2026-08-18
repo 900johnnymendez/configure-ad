@@ -477,6 +477,7 @@ The Account will lockout for 30 minutes after 5 invalid attempts. The Account lo
 Logged into client-1 as jane_admin and typed gpupdate /force in Command prompt to force the update immediately. Policy update completed successfully so now Account lockout Policy is enforced, logged out of client-1.
 
 <img width="401" height="248" alt="Screenshot 2026-06-26 000043" src="https://github.com/user-attachments/assets/bc017b7a-ba9f-4281-a392-aa3b07afe839" />
+
 Picked a random user from active directory users and computers in _EMPLOYEES (polo.fam) to test Account Lockout. Pasted client-1's Public IP address in Remote desketop connection.
 
 <img width="450" height="466" alt="Screenshot 2026-06-26 000135" src="https://github.com/user-attachments/assets/be9badd4-ccd6-4dba-888b-21bcd69e781f" />
