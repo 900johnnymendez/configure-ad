@@ -3,7 +3,7 @@
 </p>
 
 <h1>Configuring Active Directory Within Azure Virtual Machines </h1>
-This tutorial describes the process for deploying and configuring of on-premises Active Directory within Azure Virtual Machines.<br />
+This tutorial describes the process for deploying and configuring of on-premises Active Directory within Azure Virtual Machines. It also covers creating and managing user accounts in Active Directory, as well as configuring Group Policy. <br />
 
 
 
