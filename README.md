@@ -424,11 +424,11 @@ In File Explorer opened C drive, Users folder, polo.fam has its own profile ther
 
 <h2> Managing Accounts and Group Policy </h2>
 
-Login to Domain Controller and configure Group Policy to lockout after 5 attempts with Group Policy Management Console
+Login to Domain Controller and configure Account Lockout Policy to lockout after 5 attempts with Group Policy Management Console
 
 Update the Group Policy
 
-Pick random user to attempt to login with the wrong password and observe that the account has been locked out within Active Directory
+Pick a random user to attempt to login with the wrong password and observe that the account has been locked out within Active Directory
 
 Unlock the account and attempt to login with it again
 
@@ -470,7 +470,7 @@ Accepted the suggested settings. where the Account will lockout for 30 minutes a
 
 <img width="1366" height="768" alt="Screenshot (32)" src="https://github.com/user-attachments/assets/c4bf75d4-9618-4460-a1c0-b5359bdf5ac6" />
 
-The Account will lockout for 30 minutes after 5 invalid attempts. The Account lockout counter resets after 10 minutes where for example if you have 2 invalid attempts you have 3 attempts left but after waiting 10 minutes it resets and you get 5 attempts. You can wait some time for the updated settings to roll out or can force it immediately.
+The Account will lockout for 30 minutes after 5 invalid attempts. The Account lockout counter resets after 10 minutes where for example if there is have 2 invalid attempts theres 3 attempts left but after waiting 10 minutes it resets and you get 5 attempts. Can wait some time for the updated settings to roll out or can force it immediately.
 
 <img width="641" height="332" alt="Screenshot 2026-07-29 160158" src="https://github.com/user-attachments/assets/8858ab7e-19b5-4a3f-98dd-f13feb651456" />
 
@@ -498,7 +498,7 @@ Typed polo.fam and clicked find now
 
 <img width="1366" height="768" alt="Screenshot (35)" src="https://github.com/user-attachments/assets/04036ed5-5851-4ba4-9aa5-0479a1afc59d" />
 
-Double clicked on polo.fam and clicked on Account. Select unlock account and applied. 
+Double clicked on polo.fam and clicked on Account. Selected unlock account and applied. 
 
 <img width="1366" height="768" alt="Screenshot 0" src="https://github.com/user-attachments/assets/4472d498-43f7-4c6a-aa67-33e99897d98b" />
 
