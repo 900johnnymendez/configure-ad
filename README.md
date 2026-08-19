@@ -124,7 +124,7 @@ Promote DC-1 as a Domain Controller and setup a new forest as mydomain.com
 
 Restart and log back into DC-1 as mydomain.com\labuser
 
-Create Organizational Unit called _EMPLOYEES and in Active Directory Users and Computers
+Create Organizational Unit called _EMPLOYEES in Active Directory Users and Computers
 
 Create another Organization Unit called _ADMINS to create a Domain Admin user
 
