@@ -152,7 +152,7 @@ To install Active Directory Domain Services, Logged in to dc-1 and clicked start
 
 <img width="1366" height="768" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/5c7de25c-1f59-49ba-ae88-5cae77bec1aa" />
 
-Add Roles and Features Wizard appeared on screen to help install Active Directory. Click next.
+Add Roles and Features Wizard appeared on screen to help install Active Directory. Clicked next.
 
 <img width="1366" height="768" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/60ee5d43-4fe7-4283-b489-dcd577c0a605" />
 
@@ -200,7 +200,7 @@ Reviewed the selections made and Clicked next
 
 <img width="1366" height="768" alt="Screenshot (18)" src="https://github.com/user-attachments/assets/e0dfa35a-cb73-4b02-a766-85fa8aff8bd0" />
 
-Click install for the new Forest to be installed and for the computer (dc-1) to become a domain controller and wait for the computer to automatically restart.
+Clicked install for the new Forest to be installed and for the computer (dc-1) to become a domain controller and wait for the computer to automatically restart.
 
 <img width="417" height="244" alt="Screenshot 2026-06-25 215615" src="https://github.com/user-attachments/assets/84c58242-938d-4513-8d49-3cac43edee0b" />
 
@@ -268,7 +268,7 @@ Paste dc-1's public IP address
 
 <img width="445" height="461" alt="Screenshot 2026-06-25 221720" src="https://github.com/user-attachments/assets/d79a0e36-cc8c-45ec-8ff2-aaed41c0def6" />
 
-Login to dc-1 as jane admin account, Username is mydomain.com\jane_admin and password is Cyberlab123! and click okay to connect
+Login to dc-1 as jane admin account, Username is mydomain.com\jane_admin and password is Cyberlab123! and clicked okay to connect
 
 <img width="395" height="243" alt="Screenshot 2026-06-25 224105" src="https://github.com/user-attachments/assets/349aac30-a0dc-4372-8119-9364335e6893" />
 
@@ -308,7 +308,7 @@ Right clicked on mydomain.com and clicked on New Orginzational Unit thats called
 
 <img width="1366" height="768" alt="screnshot (5)" src="https://github.com/user-attachments/assets/6afa1b14-8b22-41c8-a026-1b3aa84f5748" />
 
-In the Computers folder, drag Client-1 to _CLIENTS Orginzational Unit and click yes.
+In the Computers folder, drag Client-1 to _CLIENTS Orginzational Unit and clicked yes.
 
 <img width="1366" height="768" alt="screnshot (6)" src="https://github.com/user-attachments/assets/9346dc6a-bf00-4d8e-87f1-ca200c64d3e9" />
 
