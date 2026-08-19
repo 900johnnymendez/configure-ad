@@ -314,7 +314,7 @@ In the Computers folder, drag Client-1 to _CLIENTS Orginzational Unit and clicke
 
 Under _CLIENTS client-1 should be listed there
 
-<h2> Create Users & Setup Remote Desktop for non-admin users</h2>
+<h2> Creating Users & Setup Remote Desktop for non-admin users</h2>
 
 Log into Client-1 as mydomain.com\jane_admin and open system properties
 
@@ -348,11 +348,11 @@ Clicked Remote Desktop
 
 <img width="1366" height="768" alt="Screensht (4)" src="https://github.com/user-attachments/assets/53c743fb-6cc1-42c5-9076-636bcd4b2e08" />
 
-Click on Select users that can remotely access this PC
+Clicked on Select users that can remotely access this PC
 
 <img width="1366" height="768" alt="Screensht (5)" src="https://github.com/user-attachments/assets/cd2a0789-f348-4c52-af8e-30782fdead64" />
 
-Click Add
+Clicked Add
 
 <img width="1366" height="768" alt="Screensht (6)" src="https://github.com/user-attachments/assets/56f49cd0-e43a-44c9-8907-e86a140bf2ec" />
 
@@ -360,7 +360,7 @@ Typed Domain Users and then clicked Check names. This will make possible for all
 
 <img width="1366" height="768" alt="Screensht (7)" src="https://github.com/user-attachments/assets/dfac76ec-484a-41af-93b7-5cf59110db8e" />
 
-Click okay. Logging in to cliet-1 VM as a non-admin user is now possible.
+Clicked okay. Logging in to cliet-1 VM as a non-admin user is now possible.
 
 <img width="1366" height="768" alt="Screenshot (7)" src="https://github.com/user-attachments/assets/f51f7287-6106-4bc5-804d-5823fb634706" />
 
@@ -380,7 +380,7 @@ Right clicked and pasted the script in Powershell ISE.
 
 <img width="1366" height="768" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/901ad5cb-54a2-49e4-8125-19f5ca6f2aea" />
 
-Clicled on file, Save as.
+Clicked on file, Save as.
 
 <img width="1366" height="768" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/a92faf37-41a5-48a6-ab95-4b3e552893ba" />
 
