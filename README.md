@@ -18,7 +18,7 @@ This tutorial describes the process for deploying and configuring of on-premises
 <h2>Operating Systems Used </h2>
 
 - Windows Server 2022
-- Windows 10 Pro (21H2)
+- Windows 10 Pro (22H2)
 
 <h2>Preparing Active Directory infrastructure</h2>
 
