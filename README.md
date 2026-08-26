@@ -102,7 +102,7 @@ Named the Virtual Machine client-1 and put in in the same Active-Directory-Lab R
 
 <img width="780" height="409" alt="Screenshot 2026-08-25 153810" src="https://github.com/user-attachments/assets/a2c847f5-75e4-4f20-a387-eefcbeead5fa" />
 
-For the image selected Windows 10 Pro, Version 22H2 and standard size
+For the image selected Windows 10 Pro, version 22H2 and Standard size
 
 <img width="700" height="630" alt="Screenshot 2026-08-25 153957" src="https://github.com/user-attachments/assets/b918ca8b-c5ac-4605-9bcd-28e3adea9326" />
 
