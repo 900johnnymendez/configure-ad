@@ -48,6 +48,70 @@ Output for DNS settings should show DC-1's Private IP address
 
 <h2>Demonstration</h2>
 
+<img width="662" height="287" alt="Screenshot 2026-08-25 151452" src="https://github.com/user-attachments/assets/59f689b3-893f-45bd-96ba-597982a0da43" />
+
+Create resource
+
+<img width="1289" height="1221" alt="Resource Group" src="https://github.com/user-attachments/assets/893a551f-86b6-424c-bde9-9e57410d3b3c" />
+
+Setting for resource group
+
+<img width="1392" height="1130" alt="Resource created" src="https://github.com/user-attachments/assets/ae1c8684-1442-4fa4-8156-5159afa17e4f" />
+
+Completed resource group
+
+<img width="661" height="205" alt="Screenshot 2026-08-25 151940" src="https://github.com/user-attachments/assets/0ba74148-a4a5-44a8-931e-ada0505a6dab" />
+
+Create virtual netowrk
+
+<img width="1292" height="1218" alt="VNET" src="https://github.com/user-attachments/assets/37fc8620-5811-4cf8-87d6-a2a4546869e1" />
+
+Review create VNET
+
+<img width="661" height="561" alt="Screenshot 2026-08-25 152523" src="https://github.com/user-attachments/assets/c9a8c24f-e19e-4113-98bd-37b3972d12e8" />
+
+Create dc-1 VM
+
+<img width="1444" height="1089" alt="dc-1" src="https://github.com/user-attachments/assets/b25381c1-13f1-4554-8f35-d7510c78eb87" />
+
+Dc-1 vm
+
+<img width="779" height="563" alt="Screenshot 2026-08-25 153005" src="https://github.com/user-attachments/assets/6d8eff2b-9d55-420c-aedd-abed3785f482" />
+
+choose Windows Server 
+
+<img width="780" height="565" alt="Screenshot 2026-08-25 153146" src="https://github.com/user-attachments/assets/014c5fce-909e-497d-8b7c-05e98d29954c" />
+
+username : labuser
+
+<img width="779" height="625" alt="Screenshot 2026-08-25 153323" src="https://github.com/user-attachments/assets/8eaa35da-9be4-4a5d-b65d-7522c5fcfc43" />
+
+Check licensing
+
+<img width="778" height="624" alt="Screenshot 2026-08-25 153443" src="https://github.com/user-attachments/assets/78ac61bb-ec43-487f-a398-05262eb94d70" />
+
+Choose VNET and create
+
+<img width="661" height="561" alt="Screenshot 2026-08-25 152523" src="https://github.com/user-attachments/assets/5647f4c0-f7eb-43fc-aee0-a1df9450a166" />
+
+Create another VM
+
+<img width="779" height="523" alt="client-1" src="https://github.com/user-attachments/assets/eb843aaa-d34e-4653-ba32-9318213dadff" />
+
+Named it client-1
+
+<img width="780" height="409" alt="Screenshot 2026-08-25 153810" src="https://github.com/user-attachments/assets/a2c847f5-75e4-4f20-a387-eefcbeead5fa" />
+
+Choose windows 10 pro
+
+<img width="700" height="630" alt="Screenshot 2026-08-25 153957" src="https://github.com/user-attachments/assets/b918ca8b-c5ac-4605-9bcd-28e3adea9326" />
+
+username: labuser
+
+<img width="779" height="622" alt="Screenshot 2026-08-25 154212" src="https://github.com/user-attachments/assets/5085323e-6e33-4dc0-9acf-182a2061290d" />
+
+Choose VNET and create
+
 <p>
 <img width="860" height="197" alt="Screenshot 2026-06-26 002735" src="https://github.com/user-attachments/assets/46aadd0e-43fc-4eb9-b859-9373af68e3ff" />
 
