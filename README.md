@@ -96,7 +96,7 @@ Selected Active-Directory-VNet for the Virtual Network and used the default subn
 
 Clicked on create Azure Virtual Machine to create another Virtual Machine
 
-<img width="779" height="523" alt="client-1" src="https://github.com/user-attachments/assets/eb843aaa-d34e-4653-ba32-9318213dadff" />
+<img width="1541" height="1021" alt="client-1" src="https://github.com/user-attachments/assets/0f29cd98-71f9-465d-82f9-7c9b106c78f2" />
 
 Named the Virtual Machine client-1 and put in in the same Active-Directory-Lab Resource Group and Region (West US)
 
