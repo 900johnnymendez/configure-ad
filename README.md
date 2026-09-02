@@ -50,7 +50,7 @@ Output for DNS settings should show DC-1's Private IP address
 
 <img width="662" height="287" alt="Screenshot 2026-08-25 151452" src="https://github.com/user-attachments/assets/59f689b3-893f-45bd-96ba-597982a0da43" />
 
-Clicked on Create Resource Group
+In Microsoft Azure clicked on Create Resource Group
 
 <img width="1289" height="1221" alt="Resource Group" src="https://github.com/user-attachments/assets/893a551f-86b6-424c-bde9-9e57410d3b3c" />
 
