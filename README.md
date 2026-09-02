@@ -22,30 +22,6 @@ This tutorial describes the process for deploying and configuring of on-premises
 
 <h2>Preparing Active Directory infrastructure</h2>
 
-Create Virtual network
-
-Create Domain Controller virtual machine (Windows server 2022) named DC-1
-
-Username: labuser   Password: Cyberlab123!
-
-Create Client virtual machine (Windows 10) named Client-1
-
-Username: labuser   Password: Cyberlab123!
-
-Set Domain Controller's NIC Private IP address to static
-
-Set Client-1's DNS settings to DC-1's Private IP address
-
-Log into Domain Controller and disable Firewall (to test connectivity)
-
-Restart and login to Client-1 and ping DC-1's Private IP address
-
-Verify the ping succeeded
-
-Within Client-1 use Powershell to run ipconfig /all
-
-Output for DNS settings should show DC-1's Private IP address
-
 <h2>Demonstration</h2>
 
 <img width="662" height="287" alt="Screenshot 2026-08-25 151452" src="https://github.com/user-attachments/assets/59f689b3-893f-45bd-96ba-597982a0da43" />
