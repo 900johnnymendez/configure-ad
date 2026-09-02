@@ -332,7 +332,7 @@ Paste dc-1's public IP address
 
 <img width="445" height="461" alt="Screenshot 2026-06-25 221720" src="https://github.com/user-attachments/assets/d79a0e36-cc8c-45ec-8ff2-aaed41c0def6" />
 
-Login to dc-1 as jane admin account, Username is mydomain.com\jane_admin and password is Cyberlab123! and clicked okay to connect
+Login to dc-1 as jane admin account, Username is mydomain.com\jane_admin and password is Cyberlab123! and clicked okay to connect. Used this account as admin account from this point forward.
 
 <img width="395" height="243" alt="Screenshot 2026-06-25 224105" src="https://github.com/user-attachments/assets/349aac30-a0dc-4372-8119-9364335e6893" />
 
