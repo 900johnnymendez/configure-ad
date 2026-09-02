@@ -136,7 +136,7 @@ Entered the credentials that were created with the virtual machines (username: l
 
 <img width="1366" height="768" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/daa075fa-8f15-4f16-897e-2e5b77bdf209" />
 
-Once logged in, clicked start and searched for Windows Defender Firewall with Advanced Secuirty and opened it. Once open, clicked on Windows defender firewall properties. On Domain profile tab where it says firewall state,selected off and did the same for private profile and public profile tab and then clicked apply and okay.
+Once logged in, clicked start and searched for Windows Defender Firewall with Advanced Secuirty and opened it. Once open, clicked on Windows defender firewall properties. On Domain profile tab where it says firewall state,selected off and did the same for private profile and public profile tab and then clicked apply and okay. Then clicked the start menu and on the User account clicked sign out.
 
 <img width="1084" height="417" alt="Screenshot 2026-06-25 222623" src="https://github.com/user-attachments/assets/9d623448-7ead-4267-baa8-df3340a0e87a" />
 
