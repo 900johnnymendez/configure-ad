@@ -22,8 +22,6 @@ This tutorial describes the process for deploying and configuring of on-premises
 
 <h2>Preparing Active Directory infrastructure</h2>
 
-<h2>Demonstration</h2>
-
 <img width="662" height="287" alt="Screenshot 2026-08-25 151452" src="https://github.com/user-attachments/assets/59f689b3-893f-45bd-96ba-597982a0da43" />
 
 In Microsoft Azure clicked on Create Resource Group
