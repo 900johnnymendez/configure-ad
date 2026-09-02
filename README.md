@@ -326,20 +326,6 @@ Under _CLIENTS client-1 should be listed there
 
 <h2> Creating Users & Setup Remote Desktop for non-admin users</h2>
 
-Log into Client-1 as mydomain.com\jane_admin and open system properties
-
-Click Remote Desktop and allow domain users access to remote desktop
-
-Login to DC-1 as jane_admin and open Powershell ISE as an administrator
-
-Copy the script and paste it in a new script in Powershell ISE
-
-Run the script and when finished check _EMPLOYEES in Active Directory to observe users created
-
-Attempt to log into Client-1 with one of the random user accounts created
-
-<h2>Demonstration</h2>
-
 <img width="405" height="243" alt="Screenshot 2026-06-25 231922" src="https://github.com/user-attachments/assets/ed52a37a-d07e-4735-8f48-629cfffd486f" />
 
 Login to client-1 using its public IP address
@@ -433,22 +419,6 @@ Once logged in, opened command prompt to see that polo.fam has a local profile o
 In File Explorer opened C drive, Users folder, polo.fam has its own profile there and jane_admin because also logged in with jane.
 
 <h2> Managing Accounts and Group Policy </h2>
-
-Login to Domain Controller and configure Account Lockout Policy to lockout after 5 attempts with Group Policy Management Console
-
-Update the Group Policy
-
-Pick a random user to attempt to login with the wrong password and observe that the account has been locked out within Active Directory
-
-Unlock the account and attempt to login with it again
-
-Resetting Passwords within Active Directory
-
-Disable the Account in Active Directory and attempt to login and observe
-
-Re-enable the account in Active Directory and attempt to login
-
-<h2>Demonstration</h2>
 
 <img width="1366" height="768" alt="Screenshot (20)" src="https://github.com/user-attachments/assets/828adea2-a1ab-46e9-91f6-0d93553bbd0f" />
 
